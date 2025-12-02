@@ -1,11 +1,12 @@
 import json
 import time
 import sys
+# ↓ ここ重要！mock_data_generator から関数を読み込む記述が必要です
+from mock_data_generator import generate_mock_data 
 from models import AircraftState, SOPRule
 from pea import PerformanceEvaluationAgent
 from sga import ScenarioGenerationAgent
 from fca import FeedbackCoachingAgent
-from mock_data_generator import generate_mock_data
 
 # Define some basic SOP Rules
 RULES = [
@@ -44,28 +45,35 @@ def run_training_session(duration_minutes=1):
     sga = ScenarioGenerationAgent()
     fca = FeedbackCoachingAgent(RULES)
     
-    # Clear previous logs
+    # Clear previous logs (optional)
     with open(pea.error_log_file, 'w') as f:
         json.dump([], f)
 
+    # ★修正ポイント: 毎回新しいデータを生成してから読み込む★
+    print("[System] Generating new scenario based on previous analysis...")
+    generate_mock_data("mock_flight_data.json", duration_minutes)
+
     # Load Data
-　　# generate_mock_data を強制的に呼び出して、毎回違うデータを作る
-　　generate_mock_data("mock_flight_data.json") 
-　　flight_data = load_mock_data()
+    flight_data = load_mock_data()
     
     # Real-time Monitoring Loop (Simulated)
     print("[System] Monitoring Loop Started...")
-    for state in flight_data:
-        # Simulate real-time data stream
-        time.sleep(0.05) # Speed up for demo
+    
+    # プログレスバーの表示（Streamlit用ではないですが、コンソールで見やすくするため）
+    total_steps = len(flight_data)
+    
+    for i, state in enumerate(flight_data):
+        # Simulate real-time data stream (少し速めに再生)
+        time.sleep(0.01) 
         
         # PEA Monitoring
         pea.evaluate_sop(state, RULES)
         
-        # Simulated FCA Interaction (Randomly ask a question)
-        if state.timestamp % 20 == 0: # Just an arbitrary trigger for demo
-            print(f"\n[Instructor] Asking FCA: 'What about gear?'")
-            print(f"[FCA] {fca.ask('gear')}\n")
+        # Simulated FCA Interaction (Demo trigger)
+        if i % 100 == 0 and i > 0: 
+            # print(f"\n[Instructor] Asking FCA: 'What about gear?'")
+            # print(f"[FCA] {fca.ask('gear')}\n")
+            pass
 
     print("[System] Monitoring Loop Ended.")
     
@@ -80,9 +88,10 @@ def run_training_session(duration_minutes=1):
     
     # 3. SGA Scenario Generation
     if weakness:
+        print(f"[SGA] Weakness detected: {weakness}. Updating scenario...")
         sga.generate_next_scenario(weakness)
     else:
-        print("[SGA] No significant weaknesses detected.")
+        print("[SGA] No significant weaknesses detected. Maintaining standard scenario.")
 
 if __name__ == "__main__":
     # Allow running from command line with duration
@@ -94,3 +103,4 @@ if __name__ == "__main__":
             pass
     
     run_training_session(duration)
+
