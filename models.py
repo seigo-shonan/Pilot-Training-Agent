@@ -3,12 +3,12 @@ from dataclasses import dataclass
 @dataclass
 class AircraftState:
     timestamp: float
-    altitude: int
-    airspeed: int
-    engine_power_setting: float
-    flaps_setting: int
+    altitude: float
+    airspeed: float
+    vertical_speed: float  # 追加
+    heading: float         # 追加
     landing_gear_state: bool
-    checklist_status: str
+    flaps_setting: int
 
 @dataclass
 class SOPRule:
