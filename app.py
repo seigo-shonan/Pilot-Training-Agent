@@ -33,8 +33,15 @@ with col2:
         # グラフ用にデータを変換
         df = pd.DataFrame(data)
         
-        # 高度と速度のチャートを表示
-        st.line_chart(df[["altitude", "airspeed"]])
+       # （修正前）まとめて表示
+        # st.line_chart(df[["altitude", "airspeed"]])
+        
+        # （修正後）2つのグラフに分けて表示
+        st.write("📈 高度 (Altitude)")
+        st.line_chart(df["altitude"], color="#00B4D8") # 水色
+        
+        st.write("🚀 速度 (Airspeed)")
+        st.line_chart(df["airspeed"], color="#0077B6") # 濃い青
         
         st.write("#### ⚠️ 検出された違反 (PEA Report)")
         # エラーログの表示
