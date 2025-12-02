@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+PEA_Error_Log.json
+ScenarioInjection.json
+FeedbackReport.html

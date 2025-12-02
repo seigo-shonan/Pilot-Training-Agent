@@ -1,0 +1,542 @@
+[
+    {
+        "timestamp": 1764047632.8037255,
+        "altitude": 100,
+        "airspeed": 80,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047633.8037255,
+        "altitude": 110,
+        "airspeed": 82,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047634.8037255,
+        "altitude": 120,
+        "airspeed": 84,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047635.8037255,
+        "altitude": 130,
+        "airspeed": 86,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047636.8037255,
+        "altitude": 140,
+        "airspeed": 88,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047637.8037255,
+        "altitude": 150,
+        "airspeed": 90,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047638.8037255,
+        "altitude": 160,
+        "airspeed": 92,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047639.8037255,
+        "altitude": 170,
+        "airspeed": 94,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047640.8037255,
+        "altitude": 180,
+        "airspeed": 96,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047641.8037255,
+        "altitude": 190,
+        "airspeed": 98,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "Takeoff_Config_OK"
+    },
+    {
+        "timestamp": 1764047642.8037255,
+        "altitude": 200,
+        "airspeed": 100,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047643.8037255,
+        "altitude": 210,
+        "airspeed": 102,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047644.8037255,
+        "altitude": 220,
+        "airspeed": 104,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047645.8037255,
+        "altitude": 230,
+        "airspeed": 106,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047646.8037255,
+        "altitude": 240,
+        "airspeed": 108,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047647.8037255,
+        "altitude": 250,
+        "airspeed": 110,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047648.8037255,
+        "altitude": 260,
+        "airspeed": 112,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047649.8037255,
+        "altitude": 270,
+        "airspeed": 114,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047650.8037255,
+        "altitude": 280,
+        "airspeed": 116,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047651.8037255,
+        "altitude": 290,
+        "airspeed": 118,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": true,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047652.8037255,
+        "altitude": 300,
+        "airspeed": 120,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047653.8037255,
+        "altitude": 310,
+        "airspeed": 122,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047654.8037255,
+        "altitude": 320,
+        "airspeed": 124,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047655.8037255,
+        "altitude": 330,
+        "airspeed": 126,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047656.8037255,
+        "altitude": 340,
+        "airspeed": 128,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047657.8037255,
+        "altitude": 350,
+        "airspeed": 130,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047658.8037255,
+        "altitude": 360,
+        "airspeed": 132,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047659.8037255,
+        "altitude": 370,
+        "airspeed": 134,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047660.8037255,
+        "altitude": 380,
+        "airspeed": 136,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047661.8037255,
+        "altitude": 390,
+        "airspeed": 138,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 10,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047662.8037255,
+        "altitude": 400,
+        "airspeed": 140,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047663.8037255,
+        "altitude": 410,
+        "airspeed": 142,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047664.8037255,
+        "altitude": 420,
+        "airspeed": 144,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047665.8037255,
+        "altitude": 430,
+        "airspeed": 146,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047666.8037255,
+        "altitude": 440,
+        "airspeed": 148,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047667.8037255,
+        "altitude": 450,
+        "airspeed": 150,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047668.8037255,
+        "altitude": 460,
+        "airspeed": 152,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047669.8037255,
+        "altitude": 470,
+        "airspeed": 154,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047670.8037255,
+        "altitude": 480,
+        "airspeed": 156,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047671.8037255,
+        "altitude": 490,
+        "airspeed": 158,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047672.8037255,
+        "altitude": 500,
+        "airspeed": 160,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047673.8037255,
+        "altitude": 510,
+        "airspeed": 162,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047674.8037255,
+        "altitude": 520,
+        "airspeed": 164,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047675.8037255,
+        "altitude": 530,
+        "airspeed": 166,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047676.8037255,
+        "altitude": 540,
+        "airspeed": 168,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047677.8037255,
+        "altitude": 550,
+        "airspeed": 170,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047678.8037255,
+        "altitude": 560,
+        "airspeed": 172,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047679.8037255,
+        "altitude": 570,
+        "airspeed": 174,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047680.8037255,
+        "altitude": 580,
+        "airspeed": 176,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047681.8037255,
+        "altitude": 590,
+        "airspeed": 178,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047682.8037255,
+        "altitude": 600,
+        "airspeed": 180,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047683.8037255,
+        "altitude": 610,
+        "airspeed": 182,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047684.8037255,
+        "altitude": 620,
+        "airspeed": 184,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047685.8037255,
+        "altitude": 630,
+        "airspeed": 186,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047686.8037255,
+        "altitude": 640,
+        "airspeed": 188,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047687.8037255,
+        "altitude": 650,
+        "airspeed": 190,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047688.8037255,
+        "altitude": 660,
+        "airspeed": 192,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047689.8037255,
+        "altitude": 670,
+        "airspeed": 194,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047690.8037255,
+        "altitude": 680,
+        "airspeed": 196,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    },
+    {
+        "timestamp": 1764047691.8037255,
+        "altitude": 690,
+        "airspeed": 198,
+        "engine_power_setting": 95.0,
+        "flaps_setting": 0,
+        "landing_gear_state": false,
+        "checklist_status": "In_Flight"
+    }
+]

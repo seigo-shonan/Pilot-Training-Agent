@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilot Training Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pilot Training Agent</h1>
+            <div class="controls">
+                <button id="startBtn" onclick="startSimulation()">Start Session</button>
+                <button id="stopBtn" onclick="stopSimulation()" disabled>Stop Session</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="dashboard">
+                <div class="card instruments">
+                    <h2>Flight Telemetry</h2>
+                    <div class="instrument-grid">
+                        <div class="instrument">
+                            <label>Altitude</label>
+                            <span id="altitude">0</span> <small>ft</small>
+                        </div>
+                        <div class="instrument">
+                            <label>Airspeed</label>
+                            <span id="airspeed">0</span> <small>kts</small>
+                        </div>
+                        <div class="instrument">
+                            <label>Gear</label>
+                            <span id="gear" class="status-indicator">UP</span>
+                        </div>
+                        <div class="instrument">
+                            <label>Flaps</label>
+                            <span id="flaps">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card logs">
+                    <h2>PEA Violation Log</h2>
+                    <div id="logList" class="log-list">
+                        <!-- Logs will appear here -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="chat-section">
+                <div class="card chat">
+                    <h2>FCA Coach</h2>
+                    <div id="chatHistory" class="chat-history">
+                        <div class="message system">Welcome! Ask me about SOPs.</div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="chatInput" placeholder="Ask a question..." onkeypress="handleChatKey(event)">
+                        <button onclick="sendChat()">Send</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
