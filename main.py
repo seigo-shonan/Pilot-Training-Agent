@@ -49,7 +49,9 @@ def run_training_session(duration_minutes=1):
         json.dump([], f)
 
     # Load Data
-    flight_data = load_mock_data()
+　　# generate_mock_data を強制的に呼び出して、毎回違うデータを作る
+　　generate_mock_data("mock_flight_data.json") 
+　　flight_data = load_mock_data()
     
     # Real-time Monitoring Loop (Simulated)
     print("[System] Monitoring Loop Started...")
